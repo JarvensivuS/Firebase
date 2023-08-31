@@ -3,8 +3,8 @@ import { StyleSheet, Button, Text, TextInput, View, SafeAreaView } from 'react-n
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
 export default function Login({ setLogin }) {
-  const [userName, setUsername] = useState('t1jasa01@students.oamk.fi');
-  const [password, setPassword] = useState('johannes99');
+  const [userName, setUsername] = useState('test1@foo.com');
+  const [password, setPassword] = useState('test1234');
 
   const login = () => {
     const auth = getAuth();
